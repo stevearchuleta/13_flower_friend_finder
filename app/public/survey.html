@@ -68,7 +68,7 @@
 
 
     <h3><strong>Question 4</strong></h3>
-    <h4>You prefer pinnate foliage as opposed to braod leaf foliage.</h4>
+    <h4>You prefer pinnate foliage as opposed to broad leaf foliage.</h4>
     <select class="chosen-select" id="q4" style="display: none;">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
@@ -252,8 +252,7 @@
 
         // AJAX post the data to the friends API.
         $.post("/api/friends", userData, function(data) {
-
-          // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+          // Grab the result from the AJAX post such that the best-matched name and photo are displayed.
           $("#match-name").text(data.name);
           $("#match-img").attr("src", data.photo);
 
