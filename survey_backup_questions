@@ -1,9 +1,6 @@
-
-<html lang="en">
-
-<head>
+<html lang="en"><head>
   <meta charset="UTF-8">
-  <title>FriendFinder</title>
+  <title>Friendly Flower Finder</title>
 
   <!-- Latest compiled and minified CSS & JS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -28,16 +25,16 @@
 
     <h3><strong>About You</strong></h3>
     <h4>Name (Required)</h4>
-    <input type="text" id="name" class="form-control" required>
+    <input type="text" id="name" class="form-control" required="">
 
     <h4>Link to Photo Image (Required)</h4>
-    <input type="text" id="photo" class="form-control" required>
+    <input type="text" id="photo" class="form-control" required="">
 
     <hr>
 
     <h3><strong>Question 1</strong></h3>
-    <h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
-    <select class="chosen-select" id="q1">
+    <h4>Perennial flowering is far more impressive than annual flowering.</h4>
+    <select class="chosen-select" id="q1" style="display: none;">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
       <option value="2">2</option>
@@ -45,110 +42,124 @@
       <option value="4">4</option>
       <option value="5">5 (Strongly Agree)</option>
     </select>
+    <div class="chosen-container chosen-container-single" style="width: 141px;" title="" id="q1_chosen">
+      <a class="chosen-single chosen-default">
+        <span>Select an Option</span>
+        <div>
+          <b></b>
+        </div>
+      </a>
+      <div class="chosen-drop">
+        <div class="chosen-search"><input type="text" autocomplete="off">
+        </div>
+        <ul class="chosen-results">
+        </ul>
+      </div>
+    </div>
 
     <h3><strong>Question 2</strong></h3>
-    <h4>Generally speaking, you rely more on your experience than your imagination.</h4>
-    <select class="chosen-select" id="q2">
+    <h4>Generally speaking, you appreciate desiduous trees moreso than evergreen conifers.</h4>
+    <select class="chosen-select" id="q2" style="display: none;">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
       <option value="5">5 (Strongly Agree)</option>
-    </select>
+    </select><div class="chosen-container chosen-container-single" style="width: 141px;" title="" id="q2_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
 
 
     <h3><strong>Question 3</strong></h3>
-    <h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
-    <select class="chosen-select" id="q3">
+    <h4>You absolutely relish in "delayed gratification" whenever you plant bulbs in autum (in anticipation of experincing that very brief flowering period in early spring).</h4>
+    <select class="chosen-select" id="q3" style="display: none;">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
       <option value="5">5 (Strongly Agree)</option>
-    </select>
+    </select><div class="chosen-container chosen-container-single" style="width: 141px;" title="" id="q3_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
 
 
     <h3><strong>Question 4</strong></h3>
-    <h4>You rarely do something just out of sheer curiosity.</h4>
-    <select class="chosen-select" id="q4">
+    <h4>You prefer pinnate foliage as opposed to broad leaf foliage.</h4>
+    <select class="chosen-select" id="q4" style="display: none;">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
       <option value="5">5 (Strongly Agree)</option>
-    </select>
+    </select><div class="chosen-container chosen-container-single" style="width: 141px;" title="" id="q4_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
 
 
     <h3><strong>Question 5</strong></h3>
-    <h4>People can rarely upset you.</h4>
-    <select class="chosen-select" id="q5">
+    <h4>Hydrating plants on a "regular basis" is perhaps your strongest traits as a gardner.</h4>
+    <select class="chosen-select" id="q5" style="display: none;">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
       <option value="5">5 (Strongly Agree)</option>
-    </select>
+    </select><div class="chosen-container chosen-container-single" style="width: 141px;" title="" id="q5_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
 
 
     <h3><strong>Question 6</strong></h3>
-    <h4>It is often difficult for you to relate to other people’s feelings.</h4>
-    <select class="chosen-select" id="q6">
+    <h4>Houseplants and tropical plants bore the living horticulturist out of you. </h4>
+    <select class="chosen-select" id="q6" style="display: none;">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
       <option value="5">5 (Strongly Agree)</option>
-    </select>
+    </select><div class="chosen-container chosen-container-single" style="width: 141px;" title="" id="q6_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
 
 
     <h3><strong>Question 7</strong></h3>
-    <h4>In a discussion, truth should be more important than people’s sensitivities.</h4>
-    <select class="chosen-select" id="q7">
+    <h4>In every gardener's shed, a space for germinating seeds is more important than a space for flashy garden books.</h4>
+    <select class="chosen-select" id="q7" style="display: none;">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
       <option value="5">5 (Strongly Agree)</option>
-    </select>
+    </select><div class="chosen-container chosen-container-single" style="width: 141px;" title="" id="q7_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
 
     <h3><strong>Question 8</strong></h3>
-    <h4>You rarely get carried away by fantasies and ideas.</h4>
-    <select class="chosen-select" id="q8">
+    <h4>You rarely get tired of pruning shrubs.</h4>
+    <select class="chosen-select" id="q8" style="display: none;">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
       <option value="5">5 (Strongly Agree)</option>
-    </select>
+    </select><div class="chosen-container chosen-container-single" style="width: 141px;" title="" id="q8_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
 
     <h3><strong>Question 9</strong></h3>
-    <h4>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h4>
-    <select class="chosen-select" id="q9">
+    <h4>In your garden, the natural texture of flowing grasses is more important than pollen-rich scented flowers.</h4>
+    <select class="chosen-select" id="q9" style="display: none;">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
       <option value="5">5 (Strongly Agree)</option>
-    </select>
+    </select><div class="chosen-container chosen-container-single" style="width: 141px;" title="" id="q9_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
 
     <h3><strong>Question 10</strong></h3>
-    <h4>You feel more energetic after spending time with a group of people.</h4>
-    <select class="chosen-select" id="q10">
+    <h4>You enjoy weeding as well as deadheading.</h4>
+    <select class="chosen-select" id="q10" style="display: none;">
       <option value=""></option>
       <option value="1">1 (Strongly Disagree)</option>
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
       <option value="5">5 (Strongly Agree)</option>
-    </select>
+    </select><div class="chosen-container chosen-container-single" style="width: 141px;" title="" id="q10_chosen"><a class="chosen-single chosen-default"><span>Select an Option</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div>
 
     <br>
     <br>
@@ -160,7 +171,8 @@
     <hr>
     <footer class="footer">
       <div class="container">
-        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/afhaque/friendfinder">GitHub Repo</a></p>
+          <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/stevearchuleta/friendFinder">GitHub Repo</a></p><br><br>
+        <p><a href="/api/friends">API Friends List</a> | <a href="https://stevearchuleta.github.io/friendFinder/">GitHub Repo</a></p>
       </div>
     </footer>
 
@@ -173,7 +185,7 @@
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <button type="button" class="close" data-dismiss="modal">×</button>
           <h2 class="modal-title"><strong>Best Match</strong></h2>
         </div>
         <div class="modal-body">
@@ -234,7 +246,7 @@
 
       // If all required fields are filled
       if (validateForm()) {
-        // Create an object for the user"s data
+        // Create an object for the user's data
         var userData = {
           name: $("#name").val(),
           photo: $("#photo").val(),
@@ -251,34 +263,24 @@
             $("#q10").val()
           ]
         };
-      }
-        // var id = 5
+
         // AJAX post the data to the friends API.
-        // Long way to write of $.post()
-        // $.ajax({
-        //   type: 'POST',
-        //   url: '/api/friends',
-        //   data: userData
-        // }).then(function(data) {
-
-        // })
-        $.post("/api/friends/", userData, function(data) {
-
-          // Grab the result from the AJAX post so that the best match's name and photo are displayed.
-          $("#match-name").text(data.commonName);
-          // $("#match-name").text(data.latinName);
+        $.post("/api/friends", userData, function(data) {
+          // Grab the result from the AJAX post such that the best-matched name and photo are displayed.
+          $("#match-name").text(data.name);
           $("#match-img").attr("src", data.photo);
 
           // Show the modal with the best match
           $("#results-modal").modal("toggle");
 
-      // } else {
-      //   alert("Please fill out all fields before submitting!");
-      // }
+        });
+      } else {
+        alert("Please fill out all fields before submitting!");
+      }
     });
-  });
   </script>
 
-</body>
 
-</html>
+
+
+</body></html>

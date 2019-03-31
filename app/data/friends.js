@@ -1,8 +1,7 @@
 // Friendly Flower Finder Questions (DATA)
 // =============================================================
-var  friendlyFlower= [
+var  friends= [
   {
-    friendlyFlowerId: "0123",
     commonName: "Tulip",
     latinName: "Tulipa",
     characteristics: "spring-blooming perennial; herbaceous bulbiferous geophyte",
@@ -11,7 +10,6 @@ var  friendlyFlower= [
     scores: [5, 4, 5, 2, 1, 3, 4, 1, 1, 3]
   },
   {
-    friendlyFlowerId: "1234",
     commonName: "Bleeding Heart",
     latinName: "Dicentra spectabilis",
     characteristics: "spring-blooming perennial; fern-like leaves; heart-shaped flowers",
@@ -20,7 +18,6 @@ var  friendlyFlower= [
     scores: [5, 4, 1, 5, 3, 5, 2, 2, 3, 2]
   },
   {
-    friendlyFlowerId: "2345",
     commonName: "Lavender",
     latinName: "Lavandula",
     characteristics: "perennial shrub; midsummer purple flowers; native to the Mediterranean region",
@@ -29,7 +26,6 @@ var  friendlyFlower= [
     scores: [5, 4, 1, 5, 2, 5, 2, 4, 2, 4]
   },
   {
-    friendlyFlowerId: "3456",
     commonName: "Marigold",
     latinName: "Tagetes",
     characteristics: "annual herbaceous; orange/yellow flowers; in the daisy family",
@@ -38,7 +34,6 @@ var  friendlyFlower= [
     scores: [1, 2, 3, 4, 5, 1, 2, 3, 4, 5]
   },
   {
-    friendlyFlowerId: "4567",
     commonName: "Orchid",
     latinName: "Orchidaceae",
     characteristics: " tropical; over 28,000 species; bilateral symmetrical flower with highly modified petal; fused stamens and carpels; extremely small seeds",
@@ -47,7 +42,6 @@ var  friendlyFlower= [
     scores: [4, 2, 2, 2, 4, 1, 2, 1, 3, 2]
   },
   {
-    friendlyFlowerId: "5678",
     commonName: "Pampas Grass",
     latinName: "Cortaderia selloana",
     characteristics: "tall perennial grass; dense tussocks; slender sharp leaves; white panicle flowers",
@@ -56,7 +50,6 @@ var  friendlyFlower= [
     scores: [5, 2, 1, 5, 4, 5, 3, 4, 5, 3]
   },
   {
-    friendlyFlowerId: "6789",
     commonName: "Calla Lily",
     latinName: "Zantedeschia aethiopica",
     characteristics: "rhizomatous herbaceous perennial; can be evergreen or deciduous depending upon climate; grows in clumps amid streams, ponds, or river banks.",
@@ -65,7 +58,6 @@ var  friendlyFlower= [
     scores: [5, 5, 4, 2, 2, 3, 2, 1, 3, 2]
   },
   {
-    friendlyFlowerId: "7890",
     commonName: "Zinnia",
     latinName: "Zinnia",
     characteristics: "easily seeded annual; grows for one season only; great cut bright-colored flowers; simple leaf structure; solitary, daisy-like flowerheads on a single, erect stem",
@@ -75,7 +67,6 @@ var  friendlyFlower= [
   },
   
   {
-    friendlyFlowerId: "8901",
     commonName: "Rose",
     latinName: "Rosaceae",
     characteristics: " a woody perennial flowering plant with beautifully fragrant blooms; over 300 species with thousands of cultivars; can be an erect shrub or a climbing or trailing plant; posseses stems that are often armed with sharp prickles",
@@ -84,7 +75,6 @@ var  friendlyFlower= [
     scores: [4, 5, 1, 2, 3, 3, 2, 5, 2, 4]
   },
   {
-    friendlyFlowerId: "9012",
     commonName: "Pygmy Palm",
     latinName: "Phoenix roebelenii",
     characteristics: "a small slender tree with long pinnate leaves; nearly 100 leaflets in planar geometry; small yellowish flowers; eadible fruit resembling a date",
